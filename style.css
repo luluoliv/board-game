@@ -1,0 +1,220 @@
+* {
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.jogo {
+    margin: 0 100px;
+    border-radius: 10px;
+    max-height: max-content;
+    max-width: max-content;
+    background-color: #eeeeee;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#box {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(192, 51, 51);
+    transition: 0.2s ease;
+}
+
+#box:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#box:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.up,
+.sides,
+.down {
+    display: flex;
+}
+
+.right {
+    position: relative;
+    left: 180px;
+}
+
+.numbers {
+    cursor: pointer;
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+
+.return {
+    cursor: none;
+    font-size: medium;
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+    margin-top: 20px;
+}
+
+.icon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.icon:active {
+    transform: translateY(-1px);
+}
+
+/* QUESTOES */
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#question6,
+#question7,
+#question8,
+#question9,
+#question10,
+#question11,
+#question12,
+#question13,
+#question14 {
+    display: none;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+    background-color: #eeeeee;
+    padding: 50px;
+    text-align: center;
+    border-radius: 30PX;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    width: 300px;
+    margin: 0 auto;
+    transition: 0.2s all ease;
+}
+
+/* alternativas */
+
+.alternativas {
+    margin-top: 20px;
+}
+
+#alternativa {
+    display: flex;
+    justify-content: center;
+    transition: all 0.22s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+#alternativa:hover {
+    transform: scale(1.111, 1.111);
+}
+
+#alternativa:active {
+    transform: translateY(-1px);
+}
+
+.alternativa_option {
+    background-color: cadetblue;
+    color: whitesmoke;
+
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.alternativa_text {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+    padding: 10px;
+    min-width: 200px;
+    max-height: fit-content;
+}
+
+.main, .header{
+    display: flex;
+}
+
+#right{
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(19, 155, 19);
+    color: white;
+    margin: 20px;
+    transition: all ease 2ms;
+}
+
+#wrong{
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(155, 19, 19);
+    color: white;
+    margin: 20px;
+}
+
+#dado{
+    position: relative;
+    top: 200px;
+    left: 550px;
+    background-color: black;
+    color: #eeeeee;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#dado_text{
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#dado_btn{
+    cursor: pointer;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#dado_btn:hover{
+    transform: translateY(-2px);
+}

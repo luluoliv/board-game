@@ -1,0 +1,49 @@
+> colocar uma questão para cada casa
+
+> colocar multiplas questoes
+  aparecer se ta certa ou errada
+
+> score
+
+9. Quais são as fases da Lua?
+a) Nova, cheia e superlua
+b) Penumbral, lunar parcial, lunar total e cheia
+c) Nova, cheia, minguante e lua de sangue
+d) Nova, crescente, cheia e minguante
+e) Nova, crescente, cheia, minguante e lua de sangue
+
+11. Qual o maior planeta do sistema solar?
+a) Marte
+b) Lua
+c) Saturno
+d) Terra
+e) Júpiter
+
+12. Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis?
+a) 33
+b) 110
+c) 333
+d) 30
+e) 14
+
+14. Quantos continentes existem?
+a) 2
+b) 8
+c) 4
+d) 6
+e) 3
+
+17. Qual o monumento famoso pela sua inclinação?
+a) Torre Eiffel
+b) Esfinge
+c) Estátua da Liberdade
+d) Cristo Redentor
+e) Torre de Pisa
+
+
+33. Qual a nacionalidade de Napoleão Bonaparte?
+a) Francesa
+b) Brasileira
+c) Mexicana
+d) Japonesa
+e) Egípcio

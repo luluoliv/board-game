@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Tabuleiro</title>
+
+    <link rel="shortcut icon" href="/brain.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="titulo">Tabuleiro</h1>
+        <h3 id="right"></h3>
+        <h3 id="wrong"></h3>
+
+    </div>
+
+    <div id="question1">
+        <h4>1. Normalmente, quantos litros de sangue uma pessoa tem? </h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text"> 50 litros </span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text"> 5 litros </span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text"> 35 litros </span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text"> 1 litro </span>
+            </div>
+        </div>
+    </div>
+    <div id="question2">
+        <h4>2. Quantos continentes existem? </h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">2</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">8</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">6</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">9</span>
+            </div>
+        </div>
+    </div>
+    <div id="question3">
+        <h4>3. Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis? </h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">33</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">99</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">333</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">110</span>
+            </div>
+        </div>
+    </div>
+    <div id="question4">
+        <h4>4. Qual o maior planeta do sistema solar? </h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Marte</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Terra</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Júpiter</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Saturno</span>
+            </div>
+        </div>
+    </div>
+    <div id="question5">
+        <h4>5. Qual o monumento famoso pela sua inclinação?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Torre Eiffel</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Esfinge</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Cristo Redentor</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Torre de pisa</span>
+            </div>
+        </div>
+    </div>
+    <div id="question6">
+        <h4>6. Quantos ossos temos no nosso corpo?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">126</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">206</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">18</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">300</span>
+            </div>
+        </div>
+    </div>
+    <div id="question7">
+        <h4>7. Que animal põe o maior ovo?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Beija-flor</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Galinha</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Avestruz</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Tartaruga-gigante</span>
+            </div>
+        </div>
+    </div>
+    <div id="question8">
+        <h4>8. Em que país se anda mais de bicicleta?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Portugal</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">México</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Mongólia</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Países Baixos</span>
+            </div>
+        </div>
+    </div>
+    <div id="question9">
+        <h4>9. O que comemora no feriado do dia 21 de abril no Brasil?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Tiradentes</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Finados</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Indenpendência do Brasil</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Natal</span>
+            </div>
+        </div>
+    </div>
+    <div id="question10">
+        <h4>10. Quem caçou o Jamal?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">PH</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Vaz</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Lucas</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Jamal</span>
+            </div>
+        </div>
+    </div>
+    <div id="question11">
+        <h4>11. Qual destas substâncias faz parte da composição do vidro?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Álcool</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Areia</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Fibra</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Celulose</span>
+            </div>
+        </div>
+    </div>
+    <div id="question12">
+        <h4>12. Qual a nacionalidade de Napoleão Bonaparte?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Francesa</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Mexicana</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Brasileira</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Japonesa</span>
+            </div>
+        </div>
+    </div>
+    <div id="question13">
+        <h4>13. Quem inventou a lâmpada?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Graham Bell</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Steve Jobs</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Thomas Edison</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Santos Dumont</span>
+            </div>
+        </div>
+    </div>
+    <div id="question14">
+        <h4>14. Quem pintou Mona Lisa?</h4>
+        <div class="alternativas">
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">A </h4>
+                <span class="alternativa_text">Van Gogh</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">B </h4>
+                <span class="alternativa_text">Salvador Dali</span>
+            </div>
+            <div id="alternativa" onclick="rightAnswer()">
+                <h4 class="alternativa_option">C </h4>
+                <span class="alternativa_text">Leonardo da Vinci</span>
+            </div>
+            <div id="alternativa" onclick="wrongAnswer()">
+                <h4 class="alternativa_option">D </h4>
+                <span class="alternativa_text">Tarcila do Amaral</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="jogo">
+            <div class="up">
+                <div onclick="popUp1()" id="box">
+                    <p class="numbers">1</p>
+                </div>
+                <div id="box" style="background-color: #c3d8c7;">
+                    <p class="return">INICIO</p>
+                </div>
+                <div id="box" style="background-color: #b9c9e9">
+                    <p class="return">FIM</p>
+                </div>
+                <div onclick="popUp14()" id="box" style="background-color: #0F3D3E">
+                    <p class="numbers">14</p>
+                </div>
+            </div>
+            <div class="sides">
+                <div class="left">
+                    <div onclick="popUp2()" id="box" style="background-color: #FF577F">
+                        <p class="numbers">2</p>
+                    </div>
+                    <div onclick="popUp3()" id="box" style="background-color: #5CB8E4">
+                        <p class="numbers">3</p>
+                    </div>
+                    <div onclick="popUp4()" id="box" style="background-color: #C689C6">
+                        <p class="numbers">4</p>
+                    </div>
+                    <div onclick="popUp5()" id="box" style="background-color: #F57328">
+                        <p class="numbers">5</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div onclick="popUp13()" id="box" style="background-color: #FFDE00">
+                        <p class="numbers">13</p>
+                    </div>
+                    <div onclick="popUp12()" id="box" style="background-color: #D2001A">
+                        <p class="numbers">12</p>
+                    </div>
+                    <div onclick="popUp11()" id="box" style="background-color: #1C6758">
+                        <p class="numbers">11</p>
+                    </div>
+                    <div onclick="popUp10()" id="box" style="background-color: #533483">
+                        <p class="numbers">10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div onclick="popUp6()" id="box" style="background-color: #850E35">
+                    <p class="numbers">6</p>
+                </div>
+                <div onclick="popUp7()" id="box" style="background-color: #472D2D">
+                    <p class="numbers">7</p>
+                </div>
+                <div onclick="popUp8()" id="box" style="background-color: #54BAB9">
+                    <p class="numbers">8</p>
+                </div>
+                <div onclick="popUp9()" id="box" style="background-color: #DF7861">
+                    <p class="numbers">9</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="dado">
+            <h1 id="dado_text"></h1>
+            <button id="dado_btn" onclick="jogarDado()">
+                <h2>Jogar</h2>
+            </button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
