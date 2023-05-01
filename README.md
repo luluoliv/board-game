@@ -1,6 +1,6 @@
 # Tabuleiro 🎲
 ## Informações Gerais 📋
-- [Jogo de Tabuleiro 🎮](https://luluoliv.github.io/jogo-tabuleiro).
+- [Jogo de Tabuleiro 🎮](https://jogo-tabuleiro.vercel.app/).
 - Para atividade do curso de Desenvolvimento de Sistemas.
 - Utilizado Visual Studio Code
 - [Autor do código](https://github.com/luluoliv)
