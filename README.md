@@ -1,20 +1,18 @@
 # Tabuleiro 🎲
-## Informações Gerais 📋
-- [Jogo de Tabuleiro 🎮](https://jogo-tabuleiro.vercel.app/).
-- Para atividade do curso de Desenvolvimento de Sistemas.
-- Utilizado Visual Studio Code
-- [Autor do código](https://github.com/luluoliv)
+## General Information 📋
+- [Board Game 🎮](https://jogo-tabuleiro.vercel.app/).
+- For the Systems Development course activity.
+- Used Visual Studio Code
+- [Author of code](https://github.com/luluoliv)
 ##
 
-## Tecnologias ⚙️
+## Technologies ⚙️
 - HTML5
 - CSS3
 - JavaScript
 
-## Metas 📈
+## Goals 📈
 
-- [x] Sistema de pontuação.
-- [x] Dado.
-- [ ] Limite de erros e acertos (Mensagem de ganhador ou perdedor).
- 
-
+- [x] Scoring system.
+- [x] Given.
+- [ ] Limit of errors and successes (Winner or loser message).
