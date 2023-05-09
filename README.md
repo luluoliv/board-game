@@ -1,5 +1,4 @@
 # Tabuleiro 🎲
-## General Information 📋
 - [Board Game 🎮](https://jogo-tabuleiro.vercel.app/).
 - For the Systems Development course activity.
 - Used Visual Studio Code
